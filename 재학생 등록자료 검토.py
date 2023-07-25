@@ -35,3 +35,5 @@ df_기납 = pd.read_excel(
 df_기납["등록구분"] = df_기납["등록구분"].fillna("미등록")
 
 print(df_기납.info())
+
+# test
